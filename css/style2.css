@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,300;1,900&display=swap');
+
+.footer__lists{
+    columns: 2 20px;
+}
+
+footer{
+    background-color: rgb(22, 22, 22);
+    height:340px;
+}
+
+.footer__imgs{
+    padding: 40px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.footer__img img{
+    width: 25px;
+}
+
+.footer__list1{
+    display: flex;
+}
+
+.list__item{
+    margin-top: 10px;
+}
+
+.list2__item{
+    margin-top: 10px;
+}
+
+.list3__item{
+    margin-top: 10px;
+}
+
+.list4__item{
+    margin-top: 10px;
+}
+
+
+.footer__list a{
+    color: white;
+}
+.footer__list2 a{
+    color: white;
+}
+.footer__list3 a{
+    color: white;
+}
+.footer__list4 a{
+    color: white;
+}
+
+.footer__list a:hover{
+    text-decoration: underline; 
+}
+.footer__list2 a:hover{
+    text-decoration: underline;
+}
+.footer__list3 a:hover{
+    text-decoration: underline;
+}
+.footer__list4 a:hover{
+    text-decoration: underline;
+}
+
+*{
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-decoration: none;
+    list-style: none;
+}
+
+.barr{
+    position: absolute;
+    margin-left: 90px;
+    display: flex;
+}
+
+.menu__botons{
+    display: flex;
+    float: left;
+    margin-left: 0px;
+}
+
+.boton1{
+    transition: .2s ease all;
+    background: white;
+    width: 140px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 2px;
+}
+
+.boton2{
+    transition: .2s ease all;
+    background: grey;
+    width: 160px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+
+.barr__item{
+    font-size: 10px;
+    margin: 5px;
+    margin-top:45px;
+    color: white;
+    display: flex;
+    list-style: none;
+    transition: .4s ease all;
+    text-decoration: none;
+}
+
+.barr__item li{
+    list-style: none;
+}
+
+.barr__item:hover{
+    color: grey;
+}
+
+.netflix{
+    height: 100px;
+    padding-left: 30px;
+    position: absolute;
+}
+
+.menu{
+    height: 680px;
+    background: url(../img/Stranger-Things-ground.png);
+    background-size: cover;
+}
+
+.menu__mo{
+    width: 300px;
+    margin-top:200px;
+    margin-left: 60px;
+    position: relative;
+}
+
+.menu__text{
+    color: white;
+    width: 80%;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.menu__bot1{
+    padding: 20px;
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu__bot1 a{
+    list-style: none;
+    color: white;
+}
+
+
+.boton1:hover{
+    background-color:grey;
+}
+
+.menu__bot2{
+    text-decoration: none;
+    transition: .2s ease all;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boton2:hover{
+    background-color:rgb(61, 61, 61);
+}
+
+.movies{
+    background-color: rgb(22, 22, 22);
+    height: 100%;
+    column-gap: 2 10px;
+    width: 100%;
+}
+
+.a__title{
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 41px;
+    margin-bottom: 10px;
+}
+
+
+.a__item{
+    position: relative;
+    width: 30%;
+    border-radius: 3px;
+    border: solid rgb(22, 22, 22);
+    transition: .4s ease all;
+}
+
+.a__item:hover{
+    border: solid white;
+}
+
+@media screen and (min-width:600px) {
+    .a__title{
+        color: white;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 41px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .a__title{
+        color: white;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-left: 41px;
+        margin-bottom: 30px;
+    }
+    .footer__imgs{
+        padding: 50px;
+    }
+    
+    .footer__img img{
+        width: 30px;
+    }
+    .barr__item{
+        font-size: 15px;
+        margin: 10px;
+        margin-top:45px;
+        color: white;
+        display: flex;
+        list-style: none;
+        transition: .4s ease all;
+        text-decoration: none;
+    }
+    
+    .a__item{
+        position: relative;
+        width: 15%;
+        border-radius: 3px;
+        border: solid rgb(22, 22, 22);
+        transition: .4s ease all;
+    }
+    .a__title{
+        color: white;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-left: 41px;
+        margin-bottom: 10px;
+    }
+    .menu__text{
+        color: white;
+        width: 40%;
+        font-size: 14px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+        font-family:Arial, Helvetica, sans-serif ;
+    }
+    .footer__lists{
+        columns: 4 20px;
+        margin-left: 20px;
+    }
+    footer{
+        background-color: rgb(22, 22, 22);
+        height:300px;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    .a__title{
+        color: white;
+        font-size: 24px;
+        padding-top: 30px;
+        padding-left: 41px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:1700px) {
+    .a__item{
+        position: relative;
+        width: 16%;
+        border-radius: 3px;
+        border: solid rgb(22, 22, 22);
+        transition: .4s ease all;
+    }
+}
